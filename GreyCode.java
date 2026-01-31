@@ -1,5 +1,5 @@
 import java.util.*;
-public class GreyCode{
+public class GreyCode {
   public static void main(String[] args){
     System.out.println(greycode(3));
   }
@@ -16,10 +16,11 @@ public class GreyCode{
       {
         ans.add(temp.get(i));
       }
-     for(int i=temp.size();i>0;i--)
+     for(int i=temp.size()-1;i>=0;i--)
       {
         ans.add(temp.get(i)+(1<<(n-1)));
       }
     return ans;
+  }
       
 }
