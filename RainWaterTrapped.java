@@ -8,6 +8,8 @@
 * Example:
 
 * The Array A = [5, 4, 1, 4, 3, 2, 7] is visualized as below. The total amount of rain water trapped in A is 11.
+
+https://www.scaler.com/academy/mentee-dashboard/class/37630/assignment/problems/47
 */
 
 public class Solution {
